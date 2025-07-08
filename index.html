@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Candy Crush Forever</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      background: linear-gradient(135deg, #f06, #f9c);
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      color: white;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      animation: candyFade 1s ease-in;
+    }
+
+    @keyframes candyFade {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    h1 {
+      font-size: 3.5em;
+      margin-bottom: 20px;
+      text-shadow: 2px 2px 4px #d03;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 20px 40px;
+      margin: 15px;
+      font-size: 1.2em;
+      font-weight: bold;
+      color: white;
+      background-color: #ff66cc;
+      border: none;
+      border-radius: 20px;
+      text-decoration: none;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+      transition: transform 0.2s ease, background-color 0.2s ease;
+    }
+
+    .button:hover {
+      transform: scale(1.05);
+      background-color: #ff33aa;
+    }
+
+    footer {
+      position: absolute;
+      bottom: 20px;
+      font-size: 0.9em;
+      color: #ffeaf7;
+    }
+
+    .extra {
+      font-size: 0.9em;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h1>🍭 Candy Crush Forever</h1>
+
+  <a href="editor/" class="button">🛠️ Level Editor</a>
+  <a href="player/" class="button">🎮 Web Player</a>
+
+  <div class="extra">
+    <a href="player/sugardropindex.html" style="color: #fff; text-decoration: underline;">🌟 Try Sugar Drops Mode</a>
+    <br><br>
+    <a href="https://discord.gg/2Zq9tszNBn" target="_blank" style="color: #fff;">💬 Join our Discord</a> |
+    <a href="https://github.com/metrlith/CandyCrushForever" target="_blank" style="color: #fff;">⭐ GitHub</a>
+  </div>
+
+  <footer>
+    Made with ❤️ by Metr — not affiliated with King 🍬
+  </footer>
+</body>
+</html>
