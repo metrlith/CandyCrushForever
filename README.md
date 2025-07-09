@@ -24,6 +24,7 @@ CandyCrushForever/
 │
 ├── README.md            # This file
 ├─  index.html           # The landing site
+├─  favicon.png
 └── LICENSE
 
 ```
