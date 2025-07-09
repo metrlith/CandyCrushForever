@@ -11,7 +11,8 @@ Made with ❤️ by Metr.
 ```plaintext
 CandyCrushForever/
 ├── editor/              # Level Editor (HTML + JS based)
-│   └── index.html       # Drag-and-drop editor for building levels
+│   ├── index.html       # Drag-and-drop editor for building levels
+|   └── [images, audio, assets...]
 │
 ├── player/              # Web Player (Flash-based)
 │   ├── index.html       # Main Player (normal mode)
@@ -22,7 +23,9 @@ CandyCrushForever/
 │   └── [images, audio, assets...]
 │
 ├── README.md            # This file
-└── LICENSE              # (Optional)
+├─  index.html           # The landing site
+└── LICENSE
+
 ```
 
 ---
