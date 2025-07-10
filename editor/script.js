@@ -1504,7 +1504,7 @@ function resized(){
     let height = window.innerHeight * .00078
 
     document.documentElement.style.setProperty("--scaleWidth", width)
-    document.documentElement.style.setProperty("--scaleHieght", height)
+    document.documentElement.style.setProperty("--scaleHeight", height)
 }
 
 window.onresize = function() {
