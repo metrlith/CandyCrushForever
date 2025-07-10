@@ -76,7 +76,7 @@ td .candy_cannon {
 }
 
 #level {
-    transform: scale(var(--scaleWidth 1, --scaleHeight));
+    transform: scale(var(--scaleWidth, 1), var(--scaleHeight, 1));
     z-index: 10;
     color: white;
     margin-left: auto;
