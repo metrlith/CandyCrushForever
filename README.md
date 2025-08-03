@@ -6,31 +6,6 @@ Made with ❤️ by Metr.
 
 ---
 
-## 📂 Project Structure
-
-```plaintext
-CandyCrushForever/
-├── editor/              # Level Editor (HTML + JS based)
-│   ├── index.html       # Drag-and-drop editor for building levels
-|   └── [images, audio, assets...]
-│
-├── player/              # Web Player (Flash-based)
-│   ├── index.html       # Main Player (normal mode)
-│   ├── sugardropindex.html  # Player with Sugar Drops enabled
-│   ├── ccgame_levelLoader.swf
-│   ├── SugarDrop_loader.swf
-│   ├── urls.txt         # Optional shuffle list
-│   └── [images, audio, assets...]
-│
-├── README.md            # This file
-├─  index.html           # The landing site
-├─  favicon.png
-└── LICENSE
-
-```
-
----
-
 ## 🚀 How to Use
 
 ### 🛠️ Level Editor
