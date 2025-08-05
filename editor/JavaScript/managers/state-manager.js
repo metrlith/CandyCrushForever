@@ -1,4 +1,4 @@
-import { elements_ids, stretched, small, sugarCoatable } from './constants.js';
+import { elements_ids, stretched, small, sugarCoatable } from '../core/constants.js';
 
 export let gameState = {
     elementLayer: 'normal',
