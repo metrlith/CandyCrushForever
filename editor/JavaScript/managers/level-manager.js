@@ -1,7 +1,7 @@
 import { createNewTable } from '../utils/level-grid.js';
 import { updateTile } from './tile-operations.js';
 import { setSelectedColor, setElementLayer, setSelectedElement, setPreferredColors, getCurrentMode, getPreferredColors } from './state-manager.js';
-import { colors, coloredCandy, candy, blockers, tiles } from '../core/constants.js';
+import { colors, coloredCandy, candy, blockers, tiles } from '../core/constants-test.js';
 import { gameState } from './state-manager.js';
 
 function getLayerFromId(id) {

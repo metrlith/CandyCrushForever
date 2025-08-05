@@ -1,6 +1,6 @@
 import { createNewTable, resized } from '../utils/level-grid.js';
 import { updateColor, updateSelection } from '../managers/ui-manager.js';
-import { elementsFolder } from '../core/constants.js';
+import { elementsFolder } from '../core/constants-test.js';
 import { setupGlobalEventListeners } from '../utils/event-handlers.js';
 
 export function initializeColorButtons() {

@@ -13,5 +13,5 @@ window.switchedRequirement = switchedRequirement;
 window.switchedRequirementIngredient = switchedRequirementIngredient;
 window.switchedMixerOption = switchedMixerOption;
 window.displayImportLevelUI = displayImportLevelUI;
-window.importLevelUI = importLevelUI;
+window.exportLevelUI = importLevelUI;
 window.exportLevelUI = exportLevelUI;

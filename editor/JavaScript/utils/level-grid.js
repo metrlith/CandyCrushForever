@@ -1,4 +1,4 @@
-import { GRID_SIZE, elements_ids, layers, elementsFolder } from '../core/constants.js';
+import { GRID_SIZE, elements_ids, layers, elementsFolder } from '../core/constants-test.js';
 import { updateTile, updateElmState } from '../managers/tile-operations.js';
 import { gameState } from '../managers/state-manager.js';
 

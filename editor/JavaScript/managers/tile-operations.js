@@ -1,4 +1,4 @@
-import { elements_ids, coloredCandy, elementsFolder, layers } from '../core/constants.js';
+import { elements_ids, coloredCandy, elementsFolder, layers } from '../core/constants-test.js';
 import { gameState, getElementLayer, getSelectedElement, getSelectedColor, stretched, small, sugarCoatable } from './state-manager.js';
 
 export function removeCake(object) {
