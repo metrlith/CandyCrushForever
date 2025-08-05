@@ -1,6 +1,6 @@
 import { gameState, updateGameState, setElementLayer, setSelectedElement, setSelectedColor, setCurrentMode, getPreferredColors } from './state-manager.js';
 import { removePortal } from './tile-operations.js';
-import { elements_ids, orderItems, magicMixerItems, coloredCandy, elementsFolder } from './constants.js';
+import { elements_ids, orderItems, magicMixerItems, coloredCandy, elementsFolder } from '../core/constants.js';
 
 export function updateSelection(object, element, layer) {
     if (object) {
