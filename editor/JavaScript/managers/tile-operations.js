@@ -1,6 +1,5 @@
 import { elements_ids, coloredCandy, elementsFolder, layers } from './constants.js';
 import { gameState, getElementLayer, getSelectedElement, getSelectedColor, stretched, small, sugarCoatable } from './state-manager.js';
-import { updateSelection } from './ui-manager.js';
 
 export function removeCake(object) {
     let cake = object.getAttribute("cake");
