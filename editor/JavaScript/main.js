@@ -1,4 +1,4 @@
-import './core/constants.js';
+import './core/constants-test.js';
 import './core/initialization.js';
 
 import './functions/exporter.js';
