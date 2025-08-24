@@ -69,14 +69,6 @@ var lastPortalObject = undefined
 var isPortalTimeout = false
 
 export {
-    // Core constants
-    MAX_REQUIREMENTS,
-    DEFAULT_MOVES,
-    DEFAULT_TIME,
-    DEFAULT_FROG_STOMACH_SIZE,
-    SCALE_FACTOR_WIDTH,
-    SCALE_FACTOR_HEIGHT,
-
     // Game elements
     colors,
     coloredCandy,
