@@ -70,7 +70,6 @@ var isPortalTimeout = false
 
 export {
     // Core constants
-    GRID_SIZE,
     MAX_REQUIREMENTS,
     DEFAULT_MOVES,
     DEFAULT_TIME,
